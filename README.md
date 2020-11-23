@@ -9,6 +9,11 @@ SNMP Simulator
 This is a pure-Python, open source and free implementation of SNMP agents simulator
 distributed under 2-clause [BSD license](http://snmplabs.com/snmpsim/license.html).
 
+Why this fork?
+--------------
+[Original project](https://github.com/etingof/snmpsim) by [Ilya Etingof](https://github.com/etingof) seems not to be continued anymore.
+Because of that, we try to maintain / enhance SNMP simulator. 
+
 Features
 --------
 
@@ -28,6 +33,13 @@ Features
 * Gathers and reports extensive activity metrics
 * Pure-Python, easy to deploy and highly portable
 * Can be extended by loadable Python snippets
+
+Related projects
+--------
+If you are looking for simulating the command line interface (CLI) of a network device, please look at our [NESi project](https://github.com/inexio/NESi).
+
+[Thola](https://github.com/inexio/thola) is the opposite of NESi and SNMP simulator. Thola is an unified interface for communication with network devices (manufacturer and model should be abstracted). Thola is using NESi for its automatic integration tests.
+
 
 Download
 --------
