@@ -144,4 +144,6 @@ Feedback and collaboration
 I'm interested in bug reports, fixes, suggestions and improvements. Your
 pull requests are very welcome!
 
+If you want to contact us, please mail to the [Thola Team](mailto:snmplabs@thola.io)
+
 Copyright (c) 2010-2019, [Ilya Etingof](mailto:etingof@gmail.com). All rights reserved.
