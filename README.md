@@ -1,4 +1,3 @@
-
 SNMP Simulator
 --------------
 [![PyPI](https://img.shields.io/pypi/v/snmpsim.svg?maxAge=2592000)](https://pypi.org/project/snmpsim/)
