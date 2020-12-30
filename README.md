@@ -1,12 +1,11 @@
 SNMP Simulator
 --------------
-[![PyPI](https://img.shields.io/pypi/v/snmpsim.svg?maxAge=2592000)](https://pypi.org/project/snmpsim/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/snmpsim.svg)](https://pypi.org/project/snmpsim/)
-[![Build status](https://travis-ci.org/etingof/snmpsim.svg?branch=master)](https://travis-ci.org/etingof/snmpsim)
-[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/etingof/snmpsim/master/LICENSE.txt)
+[![PyPI](https://img.shields.io/pypi/v/snmpsim.svg?maxAge=2592000)](https://pypi.org/project/thola-snmpsim/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/snmpsim.svg)](https://pypi.org/project/thola-snmpsim/)
+[![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/inexio/snmpsim/master/LICENSE.txt)
 
 This is a pure-Python, open source and free implementation of SNMP agents simulator
-distributed under 2-clause [BSD license](http://snmplabs.com/snmpsim/license.html).
+distributed under 2-clause [BSD license](http://snmplabs.thola.io/snmpsim/license.html).
 
 Why this fork?
 --------------
@@ -28,7 +27,7 @@ Features
 * Can gather simulation data from external program invocation or a SQL database
 * Can trigger SNMP TRAP/INFORMs on SET operations
 * Capable to simultaneously simulate tens of thousands of Agents
-* Offers REST API based [control plane](http://snmplabs.com/snmpsim-control-plane)
+* Offers REST API based [control plane](http://snmplabs.thola.io/snmpsim-control-plane)
 * Gathers and reports extensive activity metrics
 * Pure-Python, easy to deploy and highly portable
 * Can be extended by loadable Python snippets
@@ -44,8 +43,8 @@ Download
 --------
 
 SNMP simulator software is freely available for download from
-[PyPI](https://pypi.org/project/snmpsim/) and
-[project site](http://snmplabs.com/snmpsim/download.html).
+[PyPI](https://pypi.org/project/thola-snmpsim/) and
+[project site](http://snmplabs.thola.io/snmpsim/download.html).
 
 Installation
 ------------
@@ -115,11 +114,11 @@ for simulation data. We ship plugins to interface SQL and noSQL databases, file-
 key-value stores and other sources of information.
 
 We maintain publicly available SNMP simulator instance at 
-[demo.snmplabs.com](http://snmplabs.com/snmpsim/public-snmp-simulator.html). You are
+[demo.snmplabs.com](http://snmplabs.thola.io/snmpsim/public-snmp-simulator.html). You are
 welcome to query it as much as you wish.
 
 Besides stand-alone deployment described above, third-party
-[SNMP Simulator control plane](https://github.com/etingof/snmpsim-control-plane)
+[SNMP Simulator control plane](https://github.com/inexio/snmpsim-control-plane)
 project offers REST API managed mass deployment of multiple `snmpsim-command-responder`
 instances.
 
@@ -127,15 +126,14 @@ Documentation
 -------------
 
 Detailed information on SNMP simulator usage could be found at
-[snmpsim site](http://snmplabs.com/snmpsim/).
+[snmpsim site](http://snmplabs.thola.io/snmpsim/).
 
 Getting help
 ------------
 
 If something does not work as expected,
-[open an issue](https://github.com/etingof/snmpsim/issues) at GitHub or
-post your question [on Stack Overflow](https://stackoverflow.com/questions/ask)
-or try browsing snmpsim [mailing list archives](https://sourceforge.net/p/snmpsim/mailman/snmpsim-users/).
+[open an issue](https://github.com/inexio/snmpsim/issues) at GitHub or
+post your question [on Stack Overflow](https://stackoverflow.com/questions/ask).
 
 Feedback and collaboration
 --------------------------
