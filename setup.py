@@ -67,7 +67,7 @@ params = {
 doclines = [x.strip() for x in (__doc__ or '').split('\n') if x]
 
 params.update(
-    {'name': 'snmpsim',
+    {'name': 'thola-snmpsim',
      'version': open(os.path.join('snmpsim', '__init__.py')).read().split('\'')[1],
      'description': doclines[0],
      'long_description': ' '.join(doclines[1:]),
