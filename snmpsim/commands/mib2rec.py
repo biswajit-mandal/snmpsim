@@ -81,7 +81,7 @@ def main():
         action='append', type=str, default=[],
         help='Enable one or more categories of SNMP debugging.')
 
-     parser.add_argument(
+    parser.add_argument(
         '--row-hint', dest='row_hint', action='store_true',
         help='Hint for MIBs Type')
 
