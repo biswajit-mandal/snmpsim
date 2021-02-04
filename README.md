@@ -52,7 +52,7 @@ Installation
 Just run:
 
 ```bash
-$ pip install snmpsim
+$ pip install https://github.com/inexio/snmpsim/archive/master.zip
 ```
 
 How to use SNMP simulator
