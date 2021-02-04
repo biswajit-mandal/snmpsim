@@ -57,6 +57,11 @@ $ pip install snmpsim
 
 How to use SNMP simulator
 -------------------------
+You can use snmpsim in different ways:
+- for smaller environments, it is sufficient to use the snmpsim-command-responder
+- in larger environments (for example lab environments) the so-called [snmpsim-control-plane](https://github.com/inexio/snmpsim-control-plane) is often used: 
+This is a management service that has a REST-API and manages the snmpsim-command-responder instances. 
+If you want to know how to set up this, please have a look in our documentation on the [snmpsim-control-plane](https://github.com/inexio/snmpsim-control-plane/blob/master/setting-up-snmpsim-control-plane.md) repo
 
 Once installed, invoke `snmpsim-command-responder` and point it to a directory
 with simulation data:
