@@ -63,7 +63,9 @@ You can use snmpsim in different ways:
 This is a management service that has a REST-API and manages the snmpsim-command-responder instances. 
 If you want to know how to set up this, please have a look in our documentation on the [snmpsim-control-plane](https://github.com/inexio/snmpsim-control-plane/blob/master/setting-up-snmpsim-control-plane.md) repo.
 
-There is also [UI for snmpsim](https://github.com/inexio/snmp-sim-ui), a UI based on the REST API of the snmpsim-control-plane.
+There are also two clients based on the REST API of the snmpsim-control-plane. 
+- [UI for snmpsim](https://github.com/inexio/snmp-sim-ui)
+- [CLI manager for snmpsim](https://github.com/inexio/snmpsim-cli-manager)
 
 Once installed, invoke `snmpsim-command-responder` and point it to a directory
 with simulation data:
