@@ -123,10 +123,6 @@ Besides static files, SNMP simulator can be configured to call its plugin module
 for simulation data. We ship plugins to interface SQL and noSQL databases, file-based
 key-value stores and other sources of information.
 
-We maintain publicly available SNMP simulator instance at 
-[demo.snmplabs.com](http://snmplabs.thola.io/snmpsim/public-snmp-simulator.html). You are
-welcome to query it as much as you wish.
-
 Besides stand-alone deployment described above, third-party
 [SNMP Simulator control plane](https://github.com/inexio/snmpsim-control-plane)
 project offers REST API managed mass deployment of multiple `snmpsim-command-responder`
