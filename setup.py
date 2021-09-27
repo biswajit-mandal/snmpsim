@@ -94,7 +94,7 @@ params.update(
 
 # install stock variation modules as data_files
 params['data_files'] = [
-    (os.path.join('snmpsim', 'variation'),
+    (os.path.join('share', 'snmpsim', 'variation'),
      glob.glob(os.path.join('variation', '*.py')))
 ]
 
@@ -106,7 +106,7 @@ for x in os.walk('data'):
     files.extend(glob.glob(os.path.join(x[0], '*.sapwalk')))
 
     params['data_files'].append(
-        (os.path.join('snmpsim', *os.path.split(x[0])), files))
+        (os.path.join('share', 'snmpsim', *os.path.split(x[0])), files))
 
 if 'py2exe' in sys.argv:
 
