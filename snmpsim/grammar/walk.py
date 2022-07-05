@@ -120,7 +120,6 @@ class WalkGrammar(abstract.AbstractGrammar):
 
         return [int(y, 16) for y in value.split(' ')]
 
-
     @staticmethod
     def _bits_filter(value):
         # rfc1902.Bits does not really initialize from sequences
