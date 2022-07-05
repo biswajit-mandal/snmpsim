@@ -30,7 +30,7 @@ jobs:
        python --version
        pip --version
        pip install -r requirements.txt -r devel-requirements.txt
-       pip install  --force-reinstall https://github.com/lostboi/snmpsim-control-plane/archive/master.zip  https://github.com/lostboi/snmpsim/archive/master.zip
+       pip install  --force-reinstall https://github.com/inexio/snmpsim-control-plane/archive/master.zip  https://github.com/inexio/snmpsim/archive/master.zip
        pip install -e .
     - name: Test with runtests.sh
       run: |
