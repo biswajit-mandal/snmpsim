@@ -1,8 +1,13 @@
 FROM python:3.7-slim
+ARG SNMP_PORT
+ENV SNMP_PORT=$SNMP_PORT
 
 COPY . snmpsim
 WORKDIR snmpsim
 RUN python setup.py install
 RUN adduser --system snmpsim
+RUN pip install pyasn1==0.4.5 pysnmp==4.4.12
+RUN chmod -R 777 data
 
-ENTRYPOINT ["python", "snmpsim/commands/responder.py", "--agent-udpv4-endpoint=0.0.0.0:161", "--process-user=snmpsim", "--process-group=nogroup"]
+# Run the generated shell script.
+ENTRYPOINT ["./entrypoint.sh"]
