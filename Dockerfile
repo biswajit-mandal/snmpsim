@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.9.7-slim
 ARG SNMP_PORT
 ENV SNMP_PORT=$SNMP_PORT
 
