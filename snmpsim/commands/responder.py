@@ -244,7 +244,7 @@ def main():
 
     parser.add_argument(
         '--log-level', choices=log.LEVELS_MAP,
-        type=str, default='info', help='Logging level.')
+        type=str, default='error', help='Logging level.')
 
     parser.add_argument(
         '--reporting-method', type=lambda x: x.split(':'),
